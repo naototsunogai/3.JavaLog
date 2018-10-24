@@ -23,6 +23,11 @@ public class MainActivity extends AppCompatActivity {
 
         human2.think();
 
+        Dog dog = new Dog("トラ", 14);
+
+        dog.say();
+
+
 
 
     }

@@ -4,6 +4,8 @@ import android.util.Log;
 
 class Human extends Animal implements Thinkable {
 
+    String hobby; //趣味
+
     public Human(String name, int age, String hobby){
         this.name = name;
         this.age = age;
